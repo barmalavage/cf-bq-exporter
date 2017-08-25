@@ -1,0 +1,74 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '@google-cloud/functions-emulator' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.29
+4 verbose cache add [ '@google-cloud/functions-emulator', null ]
+5 verbose cache add name=undefined spec="@google-cloud/functions-emulator" args=["@google-cloud/functions-emulator",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '@google-cloud/functions-emulator',
+6 verbose parsed url   path: '@google-cloud/functions-emulator',
+6 verbose parsed url   href: '@google-cloud/functions-emulator' }
+7 verbose cache add name="" spec="google-cloud/functions-emulator" args=["","google-cloud/functions-emulator"]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'google-cloud/functions-emulator',
+8 verbose parsed url   path: 'google-cloud/functions-emulator',
+8 verbose parsed url   href: 'google-cloud/functions-emulator' }
+9 silly lockFile 07607eff-google-cloud-functions-emulator google-cloud/functions-emulator
+10 verbose lock google-cloud/functions-emulator /root/.npm/07607eff-google-cloud-functions-emulator.lock
+11 info maybeGithub Attempting google-cloud/functions-emulator from git://github.com/google-cloud/functions-emulator
+12 silly lockFile 10ebcfe4--google-cloud-functions-emulator git://github.com/google-cloud/functions-emulator
+13 verbose lock git://github.com/google-cloud/functions-emulator /root/.npm/10ebcfe4--google-cloud-functions-emulator.lock
+14 verbose addRemoteGit [ 'git://github.com/google-cloud/functions-emulator', 'master' ]
+15 verbose git clone git://github.com/google-cloud/functions-emulator Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-google-cloud-functions-emulator-10ebcfe4'...
+15 verbose git clone git://github.com/google-cloud/functions-emulator fatal: remote error:
+15 verbose git clone git://github.com/google-cloud/functions-emulator   Repository not found.
+16 silly lockFile 10ebcfe4--google-cloud-functions-emulator git://github.com/google-cloud/functions-emulator
+17 silly lockFile 10ebcfe4--google-cloud-functions-emulator git://github.com/google-cloud/functions-emulator
+18 info maybeGithub Attempting google-cloud/functions-emulator from git+ssh://git@github.com:google-cloud/functions-emulator
+19 silly lockFile 8c2e1754--google-cloud-functions-emulator git@github.com:google-cloud/functions-emulator
+20 verbose lock git@github.com:google-cloud/functions-emulator /root/.npm/8c2e1754--google-cloud-functions-emulator.lock
+21 verbose addRemoteGit [ 'git@github.com:google-cloud/functions-emulator', 'master' ]
+22 error git clone git@github.com:google-cloud/functions-emulator Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-google-cloud-functions-emulator-8c2e1754'...
+22 error git clone git@github.com:google-cloud/functions-emulator Permission denied (publickey).
+22 error git clone git@github.com:google-cloud/functions-emulator fatal: Could not read from remote repository.
+22 error git clone git@github.com:google-cloud/functions-emulator
+22 error git clone git@github.com:google-cloud/functions-emulator Please make sure you have the correct access rights
+22 error git clone git@github.com:google-cloud/functions-emulator and the repository exists.
+23 silly lockFile 8c2e1754--google-cloud-functions-emulator git@github.com:google-cloud/functions-emulator
+24 silly lockFile 8c2e1754--google-cloud-functions-emulator git@github.com:google-cloud/functions-emulator
+25 silly lockFile 07607eff-google-cloud-functions-emulator google-cloud/functions-emulator
+26 silly lockFile 07607eff-google-cloud-functions-emulator google-cloud/functions-emulator
+27 error addLocal Could not install google-cloud/functions-emulator
+28 error Error: ENOENT, stat 'google-cloud/functions-emulator'
+29 error If you need help, you may report this *entire* log,
+29 error including the npm and node versions, at:
+29 error     <http://github.com/npm/npm/issues>
+30 error System Linux 3.16.0-4-amd64
+31 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "@google-cloud/functions-emulator"
+32 error cwd /home/bryanarm/bryanarm-gcf-bq-export
+33 error node -v v0.10.29
+34 error npm -v 1.4.21
+35 error path google-cloud/functions-emulator
+36 error code ENOENT
+37 error errno 34
+38 verbose exit [ 34, true ]
